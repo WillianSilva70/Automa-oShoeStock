@@ -21,7 +21,7 @@ public class Teste extends Elementos {
 		metodo.clicar(selectTamanho);
 		Thread.sleep(3000);
 		metodo.clicar(btnComprar);
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		metodo.validarResumoCompra(resumoCompra, "R$ 159,99");
 
 	}
